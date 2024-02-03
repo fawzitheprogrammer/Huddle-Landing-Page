@@ -10,6 +10,8 @@ function animateNumber(elementId, startValue, endValue,unit, duration) {
 
   const interval = setInterval(() => {
     currentVal++;
+
+    // This is to check if the number is bigger than 999 it writes in decimal format 
     element.textContent = currentVal > 999 ? (currentVal / 1000).toFixed(1) + unit : currentVal;
 
     if (currentVal >= endValue) clearInterval(interval);
