@@ -4,6 +4,10 @@ body{
     font-family: 'Open Sans','sans-serif'
 }
 
+h1,h2 {
+    font-family: 'Poppins';
+}
+
 img {
     max-width: 100%;
 }
@@ -16,3 +20,8 @@ ul {
 .attribution { font-size: 16px; text-align: center; }
 
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+#footer {
+   background-color: hsl(192, 100%, 9%);
+}
